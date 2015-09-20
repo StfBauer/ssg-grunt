@@ -76,6 +76,16 @@ watch: {
 }
 ```
 Make sure the path defined in the watch definition matches the one in your simpleStyleGuide definition.
+In addition to the integration into watch add the default configuration for the Simple Style Guide task to the init config.
+
+```
+simpleStyleGuide: {
+    patterns: '<%= config.app %>/_pattern',
+    patternConfig: '<%= config.app %>/patterns.json'
+}
+```
+
+
 # The MIT License (MIT)
 Copyright (c) 2013 Stefan Bauer [@Stfbauer](http://twitter.com/StfBauer)
 
