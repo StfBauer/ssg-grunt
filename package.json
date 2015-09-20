@@ -1,0 +1,33 @@
+{
+  "name": "ssg-grunt",
+  "version": "0.0.1",
+  "description": "Simple Style Guide Grunt Task",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StfBauer/ssg-grunt.git"
+  },
+  "keywords": [
+    "style",
+    "guide",
+    "web",
+    "design",
+    "atomic",
+    "design"
+  ],
+  "author": "Stefan Bauer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StfBauer/ssg-grunt/issues"
+  },
+  "homepage": "https://github.com/StfBauer/ssg-grunt#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "grunt-cli": "^0.1.13"
+  }
+}
